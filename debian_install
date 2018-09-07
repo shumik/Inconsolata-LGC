@@ -1,0 +1,8 @@
+make sure you have installed xfonts-utils
+
+    mv *.ttf /usr/share/fonts/truetype
+    cd /usr/share/fonts/truetype
+    mkfontscale
+    mkfontdir
+    fc-cache
+    xset fp rehash
